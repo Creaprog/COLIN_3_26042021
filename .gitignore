@@ -1,0 +1,7 @@
+dist/
+.parcel-cache/
+node_modules/
+.idea/
+yarn.lock
+src/sass/style.css
+src/sass/style.css.map

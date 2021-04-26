@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../police/Roboto/Roboto-Regular.ttf');
+}
+
+body,
+html {
+  margin: 0;
+}
+@mixin typography($font-size: 20px) {
+  font-family: 'Roboto', serif;
+  font-size: $font-size;
+}
+
+@mixin container() {
+  padding: 40px;
+}
+header {
+  padding: 20px 0 20px 0;
+  box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+  z-index: 1;
+  position: relative;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+  }
+}
+
+#position {
+  @include typography;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3;
+  position: relative;
+  p {
+    margin-left: 15px;
+  }
+}
+
+#hero {
+  @include typography;
+  @include container;
+  text-align: center;
+  background-color: #fafafa;
+  button {
+    @include typography;
+    border-radius: 100px;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    background-image: linear-gradient(
+      0deg,
+      rgba(147, 86, 220, 0.9),
+      rgba(255, 121, 218, 0.9)
+    );
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+  }
+}
+
+#fonctionnement {
+  @include typography;
+  @include container;
+  h1 {
+    padding-left: 20px;
+  }
+  ol {
+    display: flex;
+    list-style: none;
+    @media only screen and (max-width: 1250px) {
+      flex-direction: column;
+    }
+  }
+  li::before {
+    content: counter(li);
+    background: #9356dc;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    left: -10px;
+  }
+  li {
+    margin-right: 30px;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    padding: 20px;
+    counter-increment: li;
+    position: relative;
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  li:hover {
+    //TODO Faudra faire une modification sur la couleur
+    background-color: rgba(255, 121, 218, 0.9);
+  }
+  .fas {
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #7e7e7e;
+  }
+}
+
+#restaurants {
+  @include typography;
+  @include container;
+  background-color: #f6f6f6;
+  h1 {
+    padding-left: 20px;
+  }
+  #cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 1rem;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    //display: block;
+    img {
+      height: 15rem;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 1rem 1rem 0 0;
+    }
+    footer {
+      border-radius: 1rem;
+      background-color: white;
+      padding-left: 10px;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+#footer {
+  padding-top: 20px;
+  padding-left: 30px;
+  background-color: #353535;
+  img {
+    background-color: white;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  i {
+    margin-right: 10px;
+  }
+}
