@@ -113,10 +113,12 @@ header {
   @include typography;
   @include container;
   background-color: #f6f6f6;
-  h1 {
+
+  position: relative;h1 {
     padding-left: 20px;
   }
-  #cards {
+
+  .cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
@@ -124,24 +126,51 @@ header {
     padding-left: 50px;
     padding-right: 50px;
   }
+
   .card {
     background-color: #fff;
     border-radius: 1rem;
     position: relative;
     text-decoration: none;
     color: inherit;
-    //display: block;
+    box-shadow: 3px 3px 10px 5px rgb(230 227 227 / 81%);
+
     img {
       height: 15rem;
       width: 100%;
       object-fit: cover;
       border-radius: 1rem 1rem 0 0;
     }
-    footer {
+
+    .card__badge {
+      background-color: #99e2d0;
+      color: #1b6150;
+      padding: .5rem;
+      border-radius: .125rem;
+      position: absolute;
+      top: 1rem;
+      right: .75rem;
+    }
+    .card__footer {
+      position: relative;
       border-radius: 1rem;
       background-color: white;
       padding-left: 10px;
       padding-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card__right {
+      position: relative;
+      margin-right: 10px;
+    }
+    .card__title {
+      position: relative;
+      margin: 5px 0 5px;
+    }
+    .card__subtitle {
+      margin: 0;
     }
   }
 }
@@ -167,4 +196,39 @@ header {
   i {
     margin-right: 10px;
   }
+}
+
+.heart-icon {
+  position: relative;
+  padding: 2rem;
+}
+
+.heart::before {
+  content: "\f004";
+  font-weight: 300;
+  position:relative;
+  display: block;
+  font-size: 22px;
+  color: #666;
+}
+
+.heart::after {
+  content: "\f004";
+  font-weight: 900;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  font-size: 22px;
+  opacity: 0;
+  transition: .3s ease-out;
+  background-image: -moz-linear-gradient(to bottom, #FF79DA, #9356DC);
+  background-image: linear-gradient(to bottom, #FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heart:hover::after {
+  opacity: 1;
 }
