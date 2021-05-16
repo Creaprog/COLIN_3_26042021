@@ -99,8 +99,7 @@ header {
     margin-bottom: 20px;
   }
   li:hover {
-    //TODO Faudra faire une modification sur la couleur
-    background-color: rgba(255, 121, 218, 0.9);
+    background-color: #f5edff;
   }
   .fas {
     margin-right: 20px;
@@ -232,3 +231,98 @@ header {
 .heart:hover::after {
   opacity: 1;
 }
+
+.header__arrow {
+  position: absolute;
+  left: 2rem;
+  height: 2rem;
+  width: 2rem;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.hero-img {
+  max-width: 100%;
+  max-height: 32rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-menu {
+  margin-top: -4rem;
+  border-radius: 2rem 2rem 0 0;
+  background-color: #f6f6f6;
+  position: absolute;
+  width: 90%;
+  margin-left: 5%;
+  padding: 0 1rem;
+}
+
+.nav-title-menu {
+  //padding: 1rem 2rem 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  position: fixed;
+  opacity: 1;
+  -webkit-animation: parentAnimation 5s linear forwards;
+  animation: parentAnimation 5s linear forwards;
+
+  .loader {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 999;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #FF79DA;
+    border-radius: 50%;
+    border-top: 16px solid #9356DC;
+    -webkit-animation: spin 2s linear forwards;
+    animation: spin 2s linear forwards;
+    opacity: 1;
+  }
+
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); opacity: 0;}
+  }
+
+  @-webkit-keyframes parentAnimation {
+    100% {  opacity: 0; z-index: 0;}
+  }
+
+  @keyframes parentAnimation {
+    100% {  opacity: 0; z-index: 0;}
+  }
+}
+
+.menu__heart {
+  position: relative;
+}
+
+.menu-restaurant {
+
+}
+
