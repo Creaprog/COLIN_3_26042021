@@ -372,11 +372,35 @@ button {
 }
 
 .animation-delay-1 {
-  animation-delay: 0.1s;
+  animation-delay: 1s;
 }
 
 .animation-delay-2 {
-  animation-delay: 0.2s;
+  animation-delay: 2s;
+}
+
+.animation-delay-3 {
+  animation-delay: 3s;
+}
+
+.animation-delay-4 {
+  animation-delay: 4s;
+}
+
+.animation-delay-5 {
+  animation-delay: 5s;
+}
+
+.animation-delay-6 {
+  animation-delay: 6s;
+}
+
+.animation-delay-7 {
+  animation-delay: 7s;
+}
+
+.animation-delay-8 {
+  animation-delay: 8s;
 }
 
 .menu-item {
@@ -388,12 +412,12 @@ button {
   box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
   overflow: hidden;
   cursor: pointer;
-  animation: itemAppear .6s;
+  animation: itemAppear 0.5s;
   animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
   animation-fill-mode: both;
   max-width: 100%;
   transform: scale(0);
-  animation-delay: 0s;
+  //animation-delay: 0s;
 
   &-left {
     white-space: nowrap;
