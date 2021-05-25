@@ -3,6 +3,11 @@
   src: url('../../police/Roboto/Roboto-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Shrikhand';
+  src: url('../../police/Shrikhand-Regular.ttf');
+}
+
 body,
 html {
   margin: 0;
@@ -41,25 +46,26 @@ header {
   }
 }
 
+button {
+  @include typography;
+  border-radius: 100px;
+  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+  background-image: linear-gradient(
+                  0deg,
+                  rgba(147, 86, 220, 0.9),
+                  rgba(255, 121, 218, 0.9)
+  );
+  border: none;
+  color: white;
+  margin-top: 20px;
+  padding: 20px;
+}
+
 #hero {
   @include typography;
   @include container;
   text-align: center;
   background-color: #fafafa;
-  button {
-    @include typography;
-    border-radius: 100px;
-    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
-    background-image: linear-gradient(
-      0deg,
-      rgba(147, 86, 220, 0.9),
-      rgba(255, 121, 218, 0.9)
-    );
-    border: none;
-    color: white;
-    margin-top: 20px;
-    padding: 20px;
-  }
 }
 
 #fonctionnement {
@@ -125,6 +131,9 @@ header {
     row-gap: 2rem;
     padding-left: 50px;
     padding-right: 50px;
+    @media (max-width: 1024px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 
   .card {
@@ -258,10 +267,11 @@ header {
   margin-top: -4rem;
   border-radius: 2rem 2rem 0 0;
   background-color: #f6f6f6;
-  position: absolute;
+  position: relative;
   width: 90%;
   margin-left: 5%;
-  padding: 0 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+
 }
 
 .nav-title-menu {
@@ -331,6 +341,9 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 1rem;
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .menu {
@@ -447,4 +460,18 @@ header {
   100% { transform: scale(1); }
 }
 
+.btn-center {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
 
+footer {
+  display: block;
+}
+
+.logo-txt {
+  color: #fff;
+  font-family: Shrikhand,"cursive";
+  font-size: 1.2rem;
+}
