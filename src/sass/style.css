@@ -259,8 +259,6 @@ button {
   border-radius: 2rem 2rem 0 0;
   background-color: #f6f6f6;
   position: relative;
-  margin-right: 5%;
-  margin-left: 5%;
   padding: 1rem 1rem 1rem 1rem;
 }
 
@@ -376,7 +374,6 @@ button {
   overflow: hidden;
   cursor: pointer;
   animation: itemAppear 0.5s;
-  animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
   animation-fill-mode: both;
   max-width: 100%;
   transform: scale(0);
@@ -496,6 +493,11 @@ footer {
 
 .delay-8 {
   animation-delay: 0.8s;
+}
+
+.Shrikhand-txt {
+  font-family: Shrikhand, "cursive";
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
