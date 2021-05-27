@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16869a62-5a87-4959-bdd3-86d3720b2f03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Roboto-Regular.2b611173.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Shrikhand-Regular.955af3ee.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/a-la-francaise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-brands-400.2493ea7d.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-brands-400.4a68c629.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-brands-400.59c94c7d.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-brands-400.74d89114.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-brands-400.ae52210e.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-regular-400.28f54066.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-regular-400.30ffa2be.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-regular-400.95637ff5.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-regular-400.a894b450.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-regular-400.ef1706e6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-solid-900.081889bd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-solid-900.2b37ea98.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-solid-900.55410839.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-solid-900.9d391d3d.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa-solid-900.fd2ac511.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.70a5f826.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.70a5f826.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.9450ff82.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.9450ff82.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/jay-wennington-N_Y88TWmGwA-unsplash.311acd7a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/la-note-enchantee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/la-palette-du-gout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/le-delice-des-sens.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.284d9f0b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ohmyfood.92f816d1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/stil-u2Lp8tXIcjw-unsplash.69ace8bc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/toa-heftiba-DQKerTsQwi0-unsplash.5b65a46f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Roboto/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Roboto/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Roboto/Roboto-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Roboto/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Roboto/Roboto-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Roboto/Roboto-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Roboto/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Roboto/Roboto-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Roboto/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Roboto/Roboto-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Roboto/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Roboto/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Roboto/Roboto-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/police/Shrikhand-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a-la-francaise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/la-note-enchantee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/la-palette-du-gout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/le-delice-des-sens.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1t8iOKEss6MMnZxGgxZ13nZJZ9d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210528_0000" />
+    <property name="settings.editor.selected.configurable" value="MTHome" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16869a62-5a87-4959-bdd3-86d3720b2f03" name="Default Changelist" comment="" />
+      <created>1622157085504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622157085504</updated>
+      <workItem from="1622157087261" duration="20000" />
+      <workItem from="1622157122753" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
