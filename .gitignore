@@ -1,0 +1,6 @@
+.idea/
+.cache/
+yarn.lock
+package-lock.json
+.parcel-cache/
+.prettierrc
