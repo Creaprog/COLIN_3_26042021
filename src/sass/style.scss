@@ -79,6 +79,8 @@ button {
     list-style: none;
     @media only screen and (max-width: 1250px) {
       flex-direction: column;
+      text-align: center;
+
     }
   }
   li::before {
