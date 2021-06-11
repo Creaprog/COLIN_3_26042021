@@ -19,7 +19,7 @@ html {
 }
 
 @mixin container() {
-  padding: 40px;
+  padding: 20px;
 }
 header {
   padding: 20px 0 20px 0;
@@ -41,8 +41,22 @@ header {
   align-items: center;
   background-color: #f3f3f3;
   position: relative;
-  p {
-    margin-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  input {
+    margin-left: 5px;
+    color: black;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    width: 150px;
+  }
+
+  input::placeholder {
+    color: black;
+    font-family: "Roboto", serif;
+    font-weight: normal;
   }
 }
 
@@ -59,6 +73,25 @@ button {
   color: white;
   margin-top: 20px;
   padding: 20px;
+  text-decoration: none;
+
+}
+
+.button {
+  @include typography;
+  border-radius: 100px;
+  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+  background-image: linear-gradient(
+                  0deg,
+                  rgba(147, 86, 220, 0.9),
+                  rgba(255, 121, 218, 0.9)
+  );
+  border: none;
+  color: white;
+  margin-top: 20px;
+  padding: 20px;
+  text-decoration: none;
+
 }
 
 #hero {
@@ -501,3 +534,4 @@ footer {
   font-family: Shrikhand,"cursive";
   font-size: 1.2rem;
 }
+

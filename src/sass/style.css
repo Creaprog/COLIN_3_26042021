@@ -34,9 +34,21 @@ header img {
   align-items: center;
   background-color: #f3f3f3;
   position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-#position p {
-  margin-left: 15px;
+#position input {
+  margin-left: 5px;
+  color: black;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  width: 150px;
+}
+#position input::placeholder {
+  color: black;
+  font-family: "Roboto", serif;
+  font-weight: normal;
 }
 
 button {
@@ -49,12 +61,26 @@ button {
   color: white;
   margin-top: 20px;
   padding: 20px;
+  text-decoration: none;
+}
+
+.button {
+  font-family: "Roboto", serif;
+  font-size: 20px;
+  border-radius: 100px;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  border: none;
+  color: white;
+  margin-top: 20px;
+  padding: 20px;
+  text-decoration: none;
 }
 
 #hero {
   font-family: "Roboto", serif;
   font-size: 20px;
-  padding: 40px;
+  padding: 20px;
   text-align: center;
   background-color: #fafafa;
 }
@@ -62,7 +88,7 @@ button {
 #fonctionnement {
   font-family: "Roboto", serif;
   font-size: 20px;
-  padding: 40px;
+  padding: 20px;
 }
 #fonctionnement h1 {
   padding-left: 20px;
@@ -74,6 +100,7 @@ button {
 @media only screen and (max-width: 1250px) {
   #fonctionnement ol {
     flex-direction: column;
+    text-align: center;
   }
 }
 #fonctionnement li::before {
@@ -112,7 +139,7 @@ button {
 #restaurants {
   font-family: "Roboto", serif;
   font-size: 20px;
-  padding: 40px;
+  padding: 20px;
   background-color: #f6f6f6;
   position: relative;
 }
@@ -260,6 +287,9 @@ button {
   background-color: #f6f6f6;
   position: relative;
   padding: 1rem 1rem 1rem 1rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav-title-menu {
