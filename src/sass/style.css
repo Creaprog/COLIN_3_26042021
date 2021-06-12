@@ -55,13 +55,17 @@ button {
   font-family: "Roboto", serif;
   font-size: 20px;
   border-radius: 100px;
-  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0.2rem 1rem 20px rgba(0, 0, 0, 0.25);
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   border: none;
   color: white;
   margin-top: 20px;
   padding: 20px;
   text-decoration: none;
+}
+button:hover {
+  background-color: red;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 }
 
 .button {
@@ -75,6 +79,10 @@ button {
   margin-top: 20px;
   padding: 20px;
   text-decoration: none;
+}
+.button:hover {
+  background-color: red;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 }
 
 #hero {
@@ -163,7 +171,7 @@ button {
   position: relative;
   text-decoration: none;
   color: inherit;
-  box-shadow: 3px 3px 10px 5px rgba(230, 227, 227, 0.81);
+  box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.25);
 }
 #restaurants .card img {
   height: 15rem;
@@ -346,13 +354,13 @@ button {
 @-webkit-keyframes parentAnimation {
   100% {
     opacity: 0;
-    z-index: 0;
+    z-index: -1;
   }
 }
 @keyframes parentAnimation {
   100% {
     opacity: 0;
-    z-index: 0;
+    z-index: -1;
   }
 }
 

@@ -63,7 +63,7 @@ header {
 button {
   @include typography;
   border-radius: 100px;
-  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+  box-shadow: 0.2rem 1rem 20px rgb(0 0 0 / 25%);
   background-image: linear-gradient(
                   0deg,
                   rgba(147, 86, 220, 0.9),
@@ -74,7 +74,10 @@ button {
   margin-top: 20px;
   padding: 20px;
   text-decoration: none;
-
+  &:hover {
+    background-color: red;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
+  }
 }
 
 .button {
@@ -91,7 +94,10 @@ button {
   margin-top: 20px;
   padding: 20px;
   text-decoration: none;
-
+  &:hover {
+    background-color: red;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
+  }
 }
 
 #hero {
@@ -175,7 +181,7 @@ button {
     position: relative;
     text-decoration: none;
     color: inherit;
-    box-shadow: 3px 3px 10px 5px rgb(230 227 227 / 81%);
+    box-shadow: 5px 5px 8px 5px rgb(0 0 0 / 25%);
 
     img {
       height: 15rem;
@@ -353,11 +359,11 @@ button {
   }
 
   @-webkit-keyframes parentAnimation {
-    100% {  opacity: 0; z-index: 0;}
+    100% {  opacity: 0; z-index: -1;}
   }
 
   @keyframes parentAnimation {
-    100% {  opacity: 0; z-index: 0;}
+    100% {  opacity: 0; z-index: -1;}
   }
 }
 
